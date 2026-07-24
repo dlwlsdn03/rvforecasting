@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb9e1b0-654d-4bea-afe2-1cc3be1a3005" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/HAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HAR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NN/NN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../NN/NN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Results/Cumulative SSE Difference.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Results/Cumulative SSE Difference.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="8cb9e1b0-654d-4bea-afe2-1cc3be1a3005" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +33,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-b3ae9b5d7125-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.439" />
+        <option value="bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515" />
       </set>
     </attachedChunks>
   </component>
