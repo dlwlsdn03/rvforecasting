@@ -1,11 +1,11 @@
 {
-  "model": "lstm_bic",
-  "generated_at_utc": "2026-07-24T10:55:07.426264+00:00",
-  "use_bic": true,
-  "fixed_lookback_period": null,
+  "model": "LSTM_10",
+  "generated_at_utc": "2026-07-25T07:47:28.003965+00:00",
+  "use_bic": false,
+  "fixed_lookback_period": 10,
   "max_bic_lag": 60,
   "bic_selection_years": 3,
-  "initial_train_years": 3,
+  "initial_train_years": 5,
   "validation_years": 1,
   "test_months": 1,
   "hidden_layers": [
@@ -28,25 +28,26 @@
   "value_column": "Volatility",
   "data_source": "..\\Data",
   "data_files": [
-    "SPY.csv"
+    "AAPL.csv"
   ],
   "load_all_csv_files": false,
   "input_start_date": "1996-01-02T00:00:00",
-  "input_end_date": "2025-04-29T00:00:00",
-  "input_dates": 7301,
+  "input_end_date": "2026-06-30T00:00:00",
+  "input_dates": 7646,
   "symbols": [
-    "SPY"
+    "AAPL"
   ],
   "symbol_count": 1,
   "prediction_shape": [
-    7301,
+    7646,
     1
   ],
-  "non_nan_predictions": 6232,
+  "non_nan_predictions": 6125,
   "device": "cpu",
   "output_files": {
-    "predictions": "..\\Results\\LSTM_BIC\\predictions_lstm_bic.csv",
-    "lookback_periods": "..\\Results\\LSTM_BIC\\lookback_periods_lstm_bic.csv",
-    "run_config": "..\\Results\\LSTM_BIC\\run_config_lstm_bic.json"
+    "prediction_summary": "..\\Results\\LSTM_10\\LSTM_10.csv",
+    "evaluation": "..\\Results\\LSTM_10\\LSTM_10_evaluation.csv",
+    "individual_directory": "..\\Results\\LSTM_10\\individual",
+    "run_config": "..\\Results\\LSTM_10\\LSTM_10_config.json"
   }
 }

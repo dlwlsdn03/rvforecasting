@@ -1,0 +1,2 @@
+model,requested_tickers,evaluated_tickers,observations,mse,qlike
+LSTM_BIC,1,1,6077,0.0057338111049346835,0.13023942199852878

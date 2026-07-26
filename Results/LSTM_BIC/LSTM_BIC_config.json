@@ -1,0 +1,53 @@
+{
+  "model": "LSTM_BIC",
+  "generated_at_utc": "2026-07-25T04:44:56.341870+00:00",
+  "use_bic": true,
+  "fixed_lookback_period": null,
+  "max_bic_lag": 60,
+  "bic_selection_years": 3,
+  "initial_train_years": 5,
+  "validation_years": 1,
+  "test_months": 1,
+  "hidden_layers": [
+    16,
+    8
+  ],
+  "learning_rate": 0.001,
+  "batch_size": 512,
+  "epochs": 100,
+  "early_stopping_rounds": 10,
+  "n_ensembles": 5,
+  "random_seed": 42,
+  "batch_normalization": false,
+  "parallel_strategy": "cpu_windows",
+  "cpu_workers": 8,
+  "torch_threads_per_worker": 1,
+  "use_log_transform": true,
+  "target_scaler": true,
+  "estimate_type": "QMLE-Trade",
+  "value_column": "Volatility",
+  "data_source": "..\\Data",
+  "data_files": [
+    "AAPL.csv"
+  ],
+  "load_all_csv_files": false,
+  "input_start_date": "1996-01-02T00:00:00",
+  "input_end_date": "2026-06-30T00:00:00",
+  "input_dates": 7646,
+  "symbols": [
+    "AAPL"
+  ],
+  "symbol_count": 1,
+  "prediction_shape": [
+    7646,
+    1
+  ],
+  "non_nan_predictions": 6077,
+  "device": "cpu",
+  "output_files": {
+    "prediction_summary": "..\\Results\\LSTM_BIC\\LSTM_BIC.csv",
+    "evaluation": "..\\Results\\LSTM_BIC\\LSTM_BIC_evaluation.csv",
+    "individual_directory": "..\\Results\\LSTM_BIC\\individual",
+    "run_config": "..\\Results\\LSTM_BIC\\LSTM_BIC_config.json"
+  }
+}
