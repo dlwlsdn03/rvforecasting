@@ -1,2 +1,0 @@
-model,requested_tickers,evaluated_tickers,observations,mse,qlike
-LSTM_10,1,1,6125,0.005760760848847298,0.12970414401631386
